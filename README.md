@@ -71,4 +71,6 @@ The code contains two detection methods, k-nn based detector and z-score based d
 For the first time to execute it, please add the `--init` parameter, 
 which generates the training set for the detection.
 
+> Note: We extended the work to detect other types of abnormal samples, and the related code is located under the `\extension` folder.
+
 
