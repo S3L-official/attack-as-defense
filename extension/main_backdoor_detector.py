@@ -1,9 +1,7 @@
 '''
-This is the test code of poisoned training under PhysicalBA.
-Using dataset class of torchvision.datasets.DatasetFolder, torchvision.datasets.MNIST and torchvision.datasets.CIFAR10.
-Default physical transformations is Compose([RandomHorizontalFlip(),ColorJitter(), RandomAffine()])
-Choose other transformations from torchvsion.transforms if you need
+This is the test code of paper 'Attack as Detection: Using Adversarial Attack Methods to Detect Abnormal Examples'.
 '''
+
 import sys
 sys.path.append('./BackdoorBox/')
 sys.path.append('./scripts/')
@@ -25,7 +23,7 @@ from tqdm import tqdm
 
 from sklearn import metrics
 
-# s3l: attack as defense import
+# attack as defense import
 import foolbox
 import attacks_method.saliency as saliency
 from attacks_method.iterative_projected_gradient import BIM, L2BasicIterativeAttack
