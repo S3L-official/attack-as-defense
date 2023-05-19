@@ -2,7 +2,7 @@ This folder contains the code for backdoored samples detection in the subsequent
 
 ### Preliminary
 
-The backdoor attack code uses the module [BackdoorBox](https://github.com/THUYimingLi/BackdoorBox). We did not add it as a submodule here, please make sure you have loaded the repository in this directory, and checked out the code could be run successfully.
+The backdoor attack code uses the module [BackdoorBox](https://github.com/THUYimingLi/BackdoorBox). We did not add it as a submodule here, please make sure you have loaded the repository in this directory, and checked out the code run successfully.
 
 ### Usage
 The main algorithm is in `main_backdoor_detector.py`, you can execute the file with `--help` to check the input arguments.
