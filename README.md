@@ -62,10 +62,10 @@ where `<-a>` defines the attack methods used for defense.
 
 The code contains two detection methods, k-nn based detector and z-score based detector.
 
-`CUDA_VISIBLE_DEVICES=XX python attack_as_defense_detector.py -d knn -a BIM --init
+`CUDA_VISIBLE_DEVICES=XX python main_adv_detector.py -d knn -a BIM --init
 `
 
-`CUDA_VISIBLE_DEVICES=XX python attack_as_defense_detector.py -d zscore -a BIM
+`CUDA_VISIBLE_DEVICES=XX python main_adv_detector.py -d zscore -a BIM
 `
 
 For the first time to execute it, please add the `--init` parameter, 
